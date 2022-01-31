@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-scroll'
 import publicHolidaysImg from '../images/publicHolidays.png'
 
 function MyWork() {
@@ -9,13 +8,13 @@ function MyWork() {
             <div className='wrapper'>
                 <div className="container">
                     <div className='preview'>
-                        <img src={publicHolidaysImg} />
+                        <img src={publicHolidaysImg} alt="project public holidays" />
                     </div>
                     <div>
 
 
-                        <a href="https://github.com/Emeliie094/fetch-holidays" target="_blank"><button className="link-button">GitHub</button></a>
-                        <a href="https://emeliie094.github.io/fetch-holidays/" target="_blank"><button className="link-button">Demo</button></a>
+                        <a href="https://github.com/Emeliie094/fetch-holidays" target="_blank" rel="noreferrer"><button className="link-button">GitHub</button></a>
+                        <a href="https://emeliie094.github.io/fetch-holidays/" target="_blank" rel="noreferrer"><button className="link-button">Demo</button></a>
                     </div>
                 </div>
                 <div className="container">
