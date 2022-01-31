@@ -9,7 +9,7 @@ function Contact() {
                 <label for="name"> Namn:</label>
                 <input id="name" placeholder="name" required />
                 <label for="email"> E-mailadress:</label>
-                <input id="email" placeholder="e-mail" required />
+                <input id="email" type="email" placeholder="e-mail" required />
                 <label for="phonenumber"> Telefonnummer:</label>
                 <input id="phonenumber" placeholder="phonenumber" />
                 <label for="message"> Meddelande</label>
