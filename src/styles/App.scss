@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300&display=swap');
+
+@import 'Home';
+@import 'Navbar';
+@import 'About';
+@import 'MyWork';
+@import 'Contact';
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-snap-type: y mandatory;
+}
+body{
+  background: #151218;
+}
+
+.App {
+  text-align: center;
+  background: #151218;
+}
+
+// .content{
+//   margin-top: 80px;
+// }
+
+/* .App-header {
+  background: #151218;
+  width: 100%;
+  max-height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-header > img {
+  object-fit: cover;
+  opacity: 0.2;
+  width: 100%;
+  filter: blur(2px);
+} */
+
+// .App-header{
+//   background-image:url("../images/header.jpg");
+//   background-size: 100%;
+//   background-repeat: no-repeat;
+//   width: auto;
+//   height: 100vh; 
+//   overflow: hidden;
+//     position: relative;
+
+// }
+
+// // nav{
+// //   background: #7647a554;
+  
+
+// // }
+
+// section{
+//   background: #1512189c;
+//   height: 100%;
+//   width: 100%;
+//   position: absolute;
+//   backdrop-filter: blur(3px);
+//   color: #fff;
+// }
+
+// section > p{
+//   color: #7C6D5F;
+//   font-weight: bold;
+// }
+
