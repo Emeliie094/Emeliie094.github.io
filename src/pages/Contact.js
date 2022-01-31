@@ -7,15 +7,16 @@ function Contact() {
                 <h2>Kontakta mig</h2>
                 <p>Fyll i formuläret nedan för att komma i kontakt med mig</p>
                 <label for="name"> Namn:</label>
-                <input id="name" placeholder="name" required />
+                <input id="name" type="text" placeholder="name" required />
                 <label for="email"> E-mailadress:</label>
                 <input id="email" type="email" placeholder="e-mail" required />
                 <label for="phonenumber"> Telefonnummer:</label>
-                <input id="phonenumber" placeholder="phonenumber" />
+                <input id="phonenumber" type="phonenumber" placeholder="phonenumber" />
                 <label for="message"> Meddelande</label>
-                <textarea id="message" placeholder="Message here..." />
-                <button className="send-button">Skicka</button>
+                <textarea id="message" type="text" placeholder="Message here..." />
+                <button type="submit" className="send-button">Skicka</button>
             </form>
+
         </div>
     );
 }
