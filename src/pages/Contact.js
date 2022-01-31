@@ -4,7 +4,7 @@ function Contact() {
     return (
         <div id="contact" className="contact">
             <form className="form-wrapper" action="https://formsubmit.co/emeliie094@hotmail.com" method="POST">
-                <h2>Kontakta miiiiiiig</h2>
+                <h2>Kontakta mig</h2>
                 <p>Fyll i formuläret nedan för att komma i kontakt med mig</p>
                 <label for="name"> Namn:</label>
                 <input id="name" name="name" type="text" placeholder="name" required />
